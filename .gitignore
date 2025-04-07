@@ -1,0 +1,60 @@
+# Ignore binary files
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.exp
+*.log
+*.sdf
+*.opensdf
+*.tlog
+*.cache
+*.csproj
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Ignore intermediate & saved folders
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Ignore build output
+Build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.user
+*.sln
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore Unreal Engine auto-generated files
+.vscode/
+.idea/
+.vs/
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+
+# Ignore CMake / CLion / JetBrains files (if using JetBrains IDEs)
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Ignore Unreal Plugin .uplugin binaries
+*.generated.*
+*.gen.cpp
+*.gen.h
+
